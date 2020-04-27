@@ -16,7 +16,7 @@ public class LoginTest {
 		
 		HomePage home = new HomePage();
 		AllAppsAfterLogin apps = home.gotoLogin(data.get("username"), data.get("password"));
-		Assert.fail("Login Test Failed");
+		
 		
 	}
 
