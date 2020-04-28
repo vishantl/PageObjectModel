@@ -19,8 +19,7 @@ public class CreateAccountTest {
 		apps.gotoCRM();
 		AddAccountPage addacc = Page.topmenu.gotoAccounts();		
 		//tm.gotoDeals();
-		addacc.addAccount(data.get("accountName"));
-		Assert.fail("Create Account Test Failed");
+		addacc.addAccount(data.get("accountName"));		
 		
 	}
 	
